@@ -6,8 +6,8 @@ import random
 SCREEN_WIDTH = 1024
 SCREEN_HEIGHT = 768
 WHITE = pygame.Color(255, 255, 255, 192)
-GREEN = pygame.Color(31, 136, 61, 192)
-RED = pygame.Color(159, 0, 0, 192)
+GREEN = pygame.Color(31, 180, 61, 255)
+RED = pygame.Color(255, 0, 0, 255)
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
 icon = pygame.image.load("assets/Basket_with_apple_80_80.png",)
